@@ -7,5 +7,6 @@ call git push origin master
 cd auto_pyscript
 call python DirListener.py
 
+::部署博客系统
 cd ../../iblog
 call auto-deploy.bat
