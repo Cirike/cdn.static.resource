@@ -1,0 +1,7 @@
+path:
+  # 音乐文件夹路径
+  music_dir: ../music
+  # 文件夹状态监控记录文件路径
+  code_file: status.code
+  # 要修改的ejs文件所在路径
+  ejs: ../../iblog/themes/3-hexo/layout/_partial/footer.ejs
