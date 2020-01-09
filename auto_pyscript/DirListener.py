@@ -118,7 +118,7 @@ def main():
 
     if check_is_upd(file_dir, code_file):
         print("更新")
-        file_set = walk_file_set("d:\\Cirike\\cdn.static.resource\\music")
+        file_set = walk_file_set(file_dir)
         meta_set = walk_meta(code_file)
         add_set = file_set - meta_set
         del_set = meta_set - file_set
